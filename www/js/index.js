@@ -14,7 +14,7 @@ $(document).on("pagecreate","#pageone",function(){
  	}); 
 
 	function random() {
-		return !Math.round(Math.random)
+		return !Math.round(Math.random());
 	}
 	
 });
