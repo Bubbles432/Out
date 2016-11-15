@@ -6,9 +6,11 @@ $(document).on("pagecreate","#pageone",function(){
 		result = random();
 		if(result == true){
 			alert("I am " + result);	
+			navigator.notification.beep
 		}
 		else if(result == false){
 			alert("I am " + result);
+			
 		}
 		
  	}); 
