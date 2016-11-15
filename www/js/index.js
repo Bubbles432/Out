@@ -6,7 +6,7 @@ $(document).on("pagecreate","#pageone",function(){
 		result = random();
 		if(result == true){
 			alert("I am " + result);	
-			navigator.notification.beep
+			navigator.notification.beep(2);
 		}
 		else if(result == false){
 			alert("I am " + result);
