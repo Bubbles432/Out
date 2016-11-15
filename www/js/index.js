@@ -7,8 +7,7 @@ $(document).on("pagecreate","#pageone",function(){
 		if(result == true){
 			alert("I am " + result);	
 		}
-		else 
-		if(result == false){
+		else if(result == false){
 			alert("I am " + result);
 		}
 		
