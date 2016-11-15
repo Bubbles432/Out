@@ -3,7 +3,15 @@
 $(document).on("pagecreate","#pageone",function(){
                         
 	$('#taptext').on("tap",function(){
-		$(this).css('color', 'red');
+		result = random();
+		if(result == true){
+			alert("I am " + result);	
+		}
+		else 
+		if(result == false){
+			alert("I am " + result);
+		}
+		
  	}); 
 
 	function random() {
