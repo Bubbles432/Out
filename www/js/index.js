@@ -10,7 +10,7 @@ $(document).on("pagecreate","#pageone",function(){
 		}
 		else if(result == false){
 			alert("I am " + result);
-			navigator.vibrate(20000);
+			navigator.vibrate(2000);
 		}
 		
  	}); 
